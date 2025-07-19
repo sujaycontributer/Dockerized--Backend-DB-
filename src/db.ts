@@ -1,6 +1,6 @@
 import mongoose, { Schema, model } from 'mongoose';
 
-const mongoUrl: string = 'mongodb://mongodbcontainer:27017/myDatabase';
+const mongoUrl: string = 'mongodb://mongodbcontainer:27017/myDatabase'; // mongodbcontainer -> name of the mongo container
 
 // Connect to MongoDB
 mongoose.connect(mongoUrl)
