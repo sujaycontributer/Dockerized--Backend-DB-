@@ -2,7 +2,7 @@ import express, { Express, Request, Response } from 'express';
 import { User } from './db';
 
 const app: Express = express();
-const port: number = 3000; // 3000 expose of an container
+const port: number = 3000; // port 3000 is expose of an container
 
 app.use(express.json());
 
