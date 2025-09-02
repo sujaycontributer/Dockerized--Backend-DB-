@@ -6,7 +6,7 @@ const port: number = 3000; // port 3000 is expose of an container
 
 app.use(express.json());
 
-// Endpoint to create a user
+
 app.post('/user', async (req: Request, res: Response) => {
   const { name, age, email } = req.body;
   const newUser = new User({ name, age, email });
